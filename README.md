@@ -15,13 +15,13 @@ Recently, blind image quality assessment (BIQA) models based on deep neural netw
 ## Training
 To train the CD-Flow from scratch, execute the following command:
 ```bash
-python main.py --training_datadir path/to/the/dataset --work_path work_dir --datapath data --batch_size_train 8
+python Main.py 
 ```
 For the training and testing split, please check the .
 ## Evaluation
 To evaluate the STRESS, PLCC and SRCC of your checkpoints on test set, execute:
 ```bash
-python test.py --datadir path/to/the/dataset --work_path work_dir --datapath data --batch_size_test 8
+python test.py
 ```
 ## Citation
 ```
