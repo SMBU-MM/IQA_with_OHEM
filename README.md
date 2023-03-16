@@ -19,7 +19,7 @@ python Main.py
 ```
 For the training and testing split, please check the .
 ## Evaluation
-To evaluate the STRESS, PLCC and SRCC of your checkpoints on test set, execute:
+To evaluate of your checkpoints on test set, execute:
 ```bash
 python test.py
 ```
