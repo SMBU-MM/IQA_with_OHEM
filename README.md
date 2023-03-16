@@ -30,7 +30,5 @@ python test.py --datadir path/to/the/dataset --work_path work_dir --datapath dat
   journal={IEEE Transactions on Multimedia}, 
   title={Deep Blind Image Quality Assessment Powered by Online Hard Example Mining}, 
   year={2023},
-  volume={},
-  number={},
   pages={1-11}}
 ```
