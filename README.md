@@ -17,7 +17,6 @@ To train the CD-Flow from scratch, execute the following command:
 ```bash
 python Main.py 
 ```
-For the training and testing split, please check the .
 ## Evaluation
 To evaluate of your checkpoints on test set, execute:
 ```bash
