@@ -1,4 +1,3 @@
-rng(0);
 Dir = './koniq-10k';
 load(fullfile(Dir,'koniq10k_scores_and_distributions.mat'));
 data = koniq10kscoresanddistributions;
