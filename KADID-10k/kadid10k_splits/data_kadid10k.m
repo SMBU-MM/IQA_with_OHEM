@@ -1,6 +1,5 @@
 % function data_kadid10k(num_selection)
 num_selection = 90000;
-rng(0);
 Dir = './'; %'./kadid10k';
 fileID = fopen(fullfile(Dir, 'dmos.csv'));
 data = textscan(fileID,'%s %s %f %f\n', 'HeaderLines',1,'Delimiter',',');
